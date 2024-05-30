@@ -1,0 +1,22 @@
+{
+    "name": "mediatel/smsdevtool",
+    "description": "this package is for mediatel sms microservice developer tool",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Omid Ganji",
+            "email": "omidgnaji1380@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "mediatel\\smsdevtool\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
